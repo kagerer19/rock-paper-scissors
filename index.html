@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Outfit:wght@600&family=Poppins&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/blob.css">
+    <title>Black Jack</title>
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="shape-blob"></div>
+        <div class="shape-blob one"></div>
+        <div class="game">
+            <h1>Rock Paper Scissors</h1>
+            <section class="score-board">
+                <div id="user-label" class="badge">User</div>
+                <div id="ai-label" class="badge">AI</div>
+
+                <span id="user-score">0</span>:<span id="ai-score">0</span>
+            </section>
+            <div class="result">
+                <p class="result">Paper covers rock, you win!</p>
+            </div>
+            <section class="choices">
+                <div class="choice">
+                    <img src="asstets/rock.png" alt="Emoji of a fist">
+                </div>
+                <div class="choice">
+                    <img class="hand-emoji" src="asstets/paper.png" alt="Emoji of a hand">
+                </div>
+                <div class="shape-blob two"></div>
+                <div class="choice">
+                    <img src="asstets/scissors.png" alt="Emoji of a peace sign">
+                </div>
+            </section>
+
+            <p id="action-message">Make your move</p>
+        </div>
+    </div>
+</main>
+<script src="src/app.js" rel="script"></script>
+</body>
+</html>
