@@ -97,15 +97,18 @@ img {
 .choices {
     text-align: center;
     margin: 50px auto;
+    display: flex;
+    gap: 90px;
 }
 
-.choice {
+.rock, .paper, .scissors {
+    cursor: crosshair;
     display: inline-block;
     padding: 10px;
     margin: 0 20px;
 }
 
-.choice:hover{
+.rock:hover, .paper:hover, .scissors:hover {
     cursor: crosshair;
     border-radius: 50px;
     transition: all 0.2s;
