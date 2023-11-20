@@ -6,7 +6,7 @@
           rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/blob.css">
-    <title>Black Jack</title>
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
 <main>
@@ -22,22 +22,22 @@
                 <span id="user-score">0</span>:<span id="ai-score">0</span>
             </section>
             <div class="result">
-                <p class="result">Paper covers rock, you win!</p>
+                <p class="result">Make a choice</p>
             </div>
             <section class="choices">
-                <div class="rock">
+                <div class="rock" id="rock">
                     <img src="asstets/rock.png" alt="Emoji of a fist">
                 </div>
-                <div class="paper">
+                <div class="paper" id="paper">
                     <img class="hand-emoji" src="asstets/paper.png" alt="Emoji of a hand">
                 </div>
                 <div class="shape-blob two"></div>
-                <div class="scissors">
+                <div class="scissors" id="scissors">
                     <img src="asstets/scissors.png" alt="Emoji of a peace sign">
                 </div>
             </section>
-
             <p id="action-message">Make your move</p>
+            <p id="action-choice"></p>
         </div>
     </div>
 </main>
